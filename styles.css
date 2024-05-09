@@ -38,7 +38,7 @@ header .optiones a img {
 
 .dots-logo {
   display: inline-block;
-  background-image: url(logo/dots-logo.svg);
+  background-image: url(logos/dots-logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 24px;
@@ -86,7 +86,7 @@ main .contenedor {
   /* background-color: indigo; */
 }
 main .contenedor figure{
-  height: 92px;
+  height: 150px;
 }
 main .contenedor figure img {
   height: 100%;
