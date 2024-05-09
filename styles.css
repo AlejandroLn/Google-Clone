@@ -38,7 +38,7 @@ header .optiones a img {
 
 .dots-logo {
   display: inline-block;
-  background-image: url(assets/dots-logo.svg);
+  background-image: url(logo/dots-logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 24px;
@@ -49,7 +49,7 @@ header .optiones a img {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(assets/search-logo.svg);
+  background-image: url(logos/search-logo.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -57,7 +57,7 @@ header .optiones a img {
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url(assets/micro-logo.svg);
+  background-image: url(logos/micro-logo.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -65,7 +65,7 @@ header .optiones a img {
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url(assets/camera-logo.svg);
+  background-image: url(logos/camera-logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -91,21 +91,21 @@ main .contenedor figure{
 main .contenedor figure img {
   height: 100%;
 }
-main .contenedor .searcher {
+main .contenedor .buscador {
   display: flex;
-  gap: 8px;
-  align-items: center;
-  height: 40px;
-  width: 450px;
-  padding: 8px 12px;
+  gap: 8px;/* Establece el espacio entre los elementos hijos del contenedor flex. */
+  align-items: center;/* Alinea verticalmente los elementos hijos en el centro del contenedor flex. */
+  height: 40px;/* Establece la altura del contenedor a 40 píxeles. */
+  width: 450px;/* Establece el ancho del contenedor a 450 píxeles. */
+  padding: 8px 12px;/* Aplica un relleno de 8 píxeles en la parte superior e inferior y 12 píxeles en los lados izquierdo y derecho del contenedor. */
   border: 1px solid gray;
-  border-radius: 24px;
+  border-radius: 24px;/* Redondea las esquinas del contenedor con un radio de 24 píxeles. */
 }
 main .contenedor .boton-buscador {
   border: none;
   background-color: transparent;
 }
-main .contenedor .searcher input {
+main .contenedor .buscador input {
   width: 100%;
   border: none;
   color: whitesmoke;
